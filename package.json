@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build-android": "eas build --platform android --profile preview"
   },
   "dependencies": {
     "@react-three/drei": "^10.0.0",
@@ -17,7 +18,8 @@
     "expo-three": "^8.0.0",
     "react": "18.2.0",
     "react-native": "0.73.6",
-    "three": "^0.173.0"
+    "three": "^0.173.0",
+    "expo-dev-client": "~3.3.12"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
